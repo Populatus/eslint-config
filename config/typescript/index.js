@@ -1,7 +1,7 @@
 module.exports = {
   parser: '@typescript-eslint/parser',
   extends: [
-    '../basic/index.js',
+    '../basic',
     'plugin:import/typescript',
     'plugin:@typescript-eslint/recommended'
   ],

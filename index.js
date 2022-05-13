@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    './config/react/index.js',
-    './config/vue/index.js'
+    './config/react',
+    './config/vue'
   ]
 }

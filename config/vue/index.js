@@ -1,4 +1,16 @@
 module.exports = {
+  parser: '@typescript-eslint/parser',
+  parserOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+    ecmaFeatures: {
+      jsx: true
+    }
+  },
+  extends: [
+    '../typescript',
+    'plugin:vue/vue3-recommended'
+  ],
   overrides: [
     {
       files: ['*.vue'],
@@ -13,10 +25,7 @@ module.exports = {
       }
     }
   ],
-  extends: [
-    '../typescript/index.js',
-    'plugin:vue/vue3-recommended'
-  ],
+
   rules: {
     'vue/max-attributes-per-line': 'off',
     'vue/no-v-html': 'off',

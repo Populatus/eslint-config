@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    '../typescript/index.js',
+    '../typescript',
     'plugin:react/recommended'
   ],
   settings: {
