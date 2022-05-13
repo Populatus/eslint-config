@@ -5,12 +5,17 @@
   "keywords": [],
   "license": "ISC",
   "author": "1000year <https://github.com/1000yea/>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/1000yea/eslint-config.git"
+  },
   "main": "index.js",
   "peerDependencies": {
     "eslint": ">=7.4.0"
   },
   "scripts": {
-    "release": "standard-version"
+    "release": "standard-version",
+    "publish": "pnpm publish"
   },
   "devDependencies": {
     "eslint": "^8.15.0",
