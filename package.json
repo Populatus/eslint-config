@@ -1,5 +1,5 @@
 {
-  "name": "@1000y/eslint-config",
+  "name": "@1000year/eslint-config",
   "version": "1.0.1",
   "description": "",
   "keywords": [],
@@ -10,7 +10,8 @@
     "eslint": ">=7.4.0"
   },
   "scripts": {
-    "release": "standard-version"
+    "release": "standard-version",
+    "release-as": "pnpm run release -- --release-as"
   },
   "devDependencies": {
     "eslint": "^8.15.0",
