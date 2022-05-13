@@ -10,8 +10,7 @@
     "eslint": ">=7.4.0"
   },
   "scripts": {
-    "release": "standard-version",
-    "release-as": "pnpm run release -- --release-as"
+    "release": "standard-version"
   },
   "devDependencies": {
     "eslint": "^8.15.0",
