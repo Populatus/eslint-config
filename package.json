@@ -1,24 +1,32 @@
 {
   "name": "@1000year/eslint-config",
-  "version": "1.0.2",
+  "version": "1.0.3-beta.1",
   "description": "",
   "keywords": [],
-  "license": "ISC",
+  "license": "MIT",
   "author": "1000year <https://github.com/1000yea/>",
   "repository": {
     "type": "git",
     "url": "https://github.com/1000yea/eslint-config.git"
   },
+  "files": [
+    "index.js",
+    "config/**/*"
+  ],
   "main": "index.js",
   "peerDependencies": {
     "eslint": ">=7.4.0"
   },
   "scripts": {
-    "release": "standard-version"
+    "release": "bumpp package.json --commit --push --tag"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
-    "eslint": "^8.15.0",
-    "standard-version": "^9.3.2"
+    "bumpp": "^7.1.1",
+    "eslint": "^8.15.0"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.23.0",
