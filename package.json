@@ -4,7 +4,7 @@
   "description": "",
   "keywords": [],
   "license": "ISC",
-  "author": "1000y <https://github.com/1000yea/>",
+  "author": "1000year <https://github.com/1000yea/>",
   "main": "index.js",
   "peerDependencies": {
     "eslint": ">=7.4.0"
