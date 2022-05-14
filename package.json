@@ -17,9 +17,6 @@
   "peerDependencies": {
     "eslint": ">=7.4.0"
   },
-  "scripts": {
-    "release": "bumpp package.json --commit --push --tag"
-  },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
