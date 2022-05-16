@@ -1,13 +1,13 @@
 {
-  "name": "@1000year/eslint-config",
-  "version": "1.0.5",
+  "name": "@populatus/eslint-config",
+  "version": "1.0.6",
   "description": "",
   "keywords": [],
   "license": "MIT",
-  "author": "1000year <https://github.com/1000yea/>",
+  "author": "Populatus <https://github.com/populatus/>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/1000yea/eslint-config.git"
+    "url": "https://github.com/populatus/eslint-config.git"
   },
   "files": [
     "index.js",
