@@ -32,7 +32,6 @@ module.exports = {
   plugins: [
     'html',
     'unicorn',
-    'antfu',
   ],
   settings: {
     'import/resolver': {
