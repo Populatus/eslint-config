@@ -1,0 +1,23 @@
+{
+  "name": "@populatus/eslint-config-react",
+  "version": "1.0.7",
+  "keywords": [],
+  "license": "MIT",
+  "author": "Populatus <https://github.com/populatus/>",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "@populatus/eslint-config-ts": "workspace:*",
+    "eslint-plugin-react": "^7.29.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "react": "^18.1.0",
+    "typescript": "^4.6.4"
+  }
+}

@@ -3,11 +3,11 @@ module.exports = {
   extends: [
     '../basic',
     'plugin:import/typescript',
-    'plugin:@typescript-eslint/recommended'
+    'plugin:@typescript-eslint/recommended',
   ],
   settings: {
     'import/resolver': {
-      node: { extensions: ['.js', '.jsx', '.mjs', '.ts', '.tsx', '.d.ts'] }
-    }
-  }
+      node: { extensions: ['.js', '.jsx', '.mjs', '.ts', '.tsx', '.d.ts'] },
+    },
+  },
 }
