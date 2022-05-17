@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    '../typescript',
+    '@populatus/eslint-config-ts',
     'plugin:react/recommended',
   ],
   settings: {

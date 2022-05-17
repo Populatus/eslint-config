@@ -8,7 +8,7 @@ module.exports = {
     },
   },
   extends: [
-    '../typescript',
+    '@populatus/eslint-config-ts',
     'plugin:vue/vue3-recommended',
   ],
   overrides: [
